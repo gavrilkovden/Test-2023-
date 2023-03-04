@@ -35,6 +35,7 @@ namespace BankTask
             set => owner = value;
         }
 
+
         public decimal Balance
         {
             get => deposit - withdraw;
